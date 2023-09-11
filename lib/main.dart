@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'VNTU Flutter Calculator'),
     );
   }
 }
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final InputParser inputParser = InputParser();
   final ExpressionHandler handler = ExpressionHandler();
 
-  final String input = "12.3+0.7";
+  final String input = "13.3+0.8";
 
   double result = 0.0;
 
