@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final InputParser inputParser = InputParser();
   final ExpressionHandler handler = ExpressionHandler();
 
-  final String input = "13.3+0.8";
+  final String input = "13.3+1.9";
 
   double result = 0.0;
 
