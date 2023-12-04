@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   double result = 0.0;
 
   void _calc() {
+
     setState(() {
       result = handler.calculateExpression(inputParser.parse(input));
     });
